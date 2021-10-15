@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+/* header */
+
+.container-grid{
+    width: 1820px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    height: 80px;
+    background-color: #1e1c21;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pesquisa {    
+    width: 460px;
+}
+
+.pesquisa input {
+    height: 34px;
+    width: 425px;
+    border-radius: 5px;
+    border: none;
+}
+.pesquisa button {
+    color:#FF0000;
+    font-size: 26px;
+    border: none;
+    background: none;
+    position: relative;
+    right: 38px;
+    top: 5px;   
+}
+
+.menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+}
+
+.carrinho-login {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrinho-compras {
+    border: none;
+    background: none;
+    color: #FF0000;
+    font-size: 40px;
+}
+
+.fazer-Login {
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+/*  banner 01 */
+
+.banner01 {
+    background-image: url(../imagens/bg01.png);
+    height: 741px;  
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px;   
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-externo {
+    width: 1632px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-banner01 {
+    width: 1358px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-banner01 img {
+    width: 855px;
+}
+
+.texto-banner01 {
+    width: 383px;
+    color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-banner01 h1{    
+    font-size: 36px;
+    font-weight: bold;
+}
+.texto-banner01 p {
+    font-size: 20px;
+}
+.texto-banner01 a {    
+    font-size: 30px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+/* banner 02 */
+
+.banner02 {
+    background-image: url(../imagens/bg02.png);
+    height: 741px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px;   
+    display: flex;
+    justify-content: flex-start;   
+}
+
+.container-externo02 {
+    width: 1776px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-banner02 {
+    width: 1358px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container-banner02 img {
+    width: 855px;
+}
+
+.texto-banner02 {
+    width: 383px;
+    color: white;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-banner01 h1{    
+    font-size: 36px;
+    font-weight: bold;
+}
+.texto-banner01 p {
+    font-size: 20px;
+}
+
+.texto-banner02 a {    
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+ /* newsletter */
+
+ .banner-newsletter {
+    background-image: url(../imagens/bg03.png);
+    height: 130px;
+    background-repeat: no-repeat;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-newsletter{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-newsletter img {
+    width: 130px;
+}
+
+.texto-newsletter {
+    width: 457px;
+    height: 78px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: white;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.cadastro-newsletter input {
+    width: 405px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.cadastro-newsletter button {
+    color:#FF0000;
+    font-size: 26px;
+    border: none;
+    background: none;
+    position: relative;
+    right: 30px;  
+}
