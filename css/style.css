@@ -191,7 +191,7 @@ header {
     background-image: url(../imagens/bg03.png);
     height: 130px;
     background-repeat: no-repeat;
-    margin: 30px;
+    margin: 30px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,4 +232,75 @@ header {
     background: none;
     position: relative;
     right: 30px;  
+}
+
+/* seção produtos */
+
+.secao-produtos{
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container-card-externo01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-card-externo{
+    width: 372px;
+    height: 562px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card {
+    width: 325px;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;        
+}
+
+.container-card img {
+    width: 325px;
+    height: 308px;
+}
+
+.container-card h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: black;
+}
+
+.preco-produto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.container-card span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #636363;
+    text-transform: uppercase;
+}
+
+.container-card a {    
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 4px 4px 4px #888888;
 }
