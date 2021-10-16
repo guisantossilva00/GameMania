@@ -21,7 +21,7 @@ body{
 }
 header {
     height: 80px;
-    background-color: #1e1c21;
+    background-color: #202121;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -304,4 +304,38 @@ header {
     border-radius: 10px;
     padding: 5px;
     box-shadow: 4px 4px 4px #888888;
+}
+
+/*  footer  */
+
+footer {
+    height: 295px;
+    background-color: #202121;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-footer img{
+    width: 150px;
+}
+
+.footer-links-principal a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.footer-links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
