@@ -45,10 +45,6 @@ header {
     top: 5px;   
 }
 
-.menu-ativo {
-    display: flex;
-}
-
 .menu {
     width: 660px;
     display: flex;
@@ -368,3 +364,40 @@ footer {
     margin: 6px;
 }
 
+@media screen and (max-width: 1200px){
+    .container-grid {
+        width: 90%;
+    }
+
+    .pesquisa input {
+        width: 146px;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        background-color: #202121;
+        position: absolute;
+        top: 0;
+        right: 60px;
+    }
+
+    .menu a {
+        padding: 15px;
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    .barras {
+        display: flex;
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    
+    .posicionamneto-header {
+        position: relative;
+    }
+}
