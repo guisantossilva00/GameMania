@@ -1,3 +1,9 @@
+$ ( document ).ready(function() {
+    $("#barras").click(function() {
+        $("#menu").toggleClass("menu-ativo")
+    })
+})
+
 let email = document.getElementById("campo-email");
 
 let listaProdutos = [
