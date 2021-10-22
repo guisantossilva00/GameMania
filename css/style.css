@@ -375,11 +375,11 @@ footer {
     .menu {
         display: none;
         flex-direction: column;
-        width: 200px;
+        width: 220px;
         background-color: #202121;
         position: absolute;
-        top: 0;
-        right: 60px;
+        top: 79px;
+        right: 0;
     }
 
     .menu a {
@@ -399,5 +399,13 @@ footer {
     
     .posicionamneto-header {
         position: relative;
+    }
+
+    /* banner 01 */
+
+    .banner01 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }

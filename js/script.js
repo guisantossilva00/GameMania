@@ -1,7 +1,9 @@
 $ ( document ).ready(function() {
+
     $("#barras").click(function() {
         $("#menu").toggleClass("menu-ativo")
     })
+
 })
 
 let email = document.getElementById("campo-email");
@@ -20,6 +22,16 @@ let listaProdutos = [
     {
         imagem :"imagens/kitvermelho.jpg",
         titulo: "Kit Teclado Mouse Gamer Vermelho Vx Gaming Grifo",
+        preco: "99,99",
+    },
+    {
+        imagem :"imagens/produto.jpg",
+        titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
+        preco: "99,99",
+    },
+    {
+        imagem :"imagens/produto.jpg",
+        titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
         preco: "99,99",
     },
     {
@@ -62,4 +74,15 @@ function renderizarProdutos() {
     }
 
     secaoProdutos.innerHTML = template;
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementById("slide");
+        if(n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length};
+            for (i = 0; i < slide.length; i++) {
+                slide[i].style.display = "none";
+            }
+        slide[slideIndex-1].style.display = "block;"
+    }
 }
