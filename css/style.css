@@ -408,4 +408,51 @@ footer {
         margin: 0;
         padding: 0;
     }
+
+    .container-banner01 {
+        width: 90%;
+    } 
+    .container-banner01 img{
+        width: 620px;
+    }
+
+    .texto-banner01 h1{    
+        font-size: 26px;
+    }
+    .texto-banner01 p {
+        font-size: 16px;
+    }
+    .texto-banner01 a {    
+        font-size: 26px;
+    }
+
+    /* banner 02 */
+
+    .banner02 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-externo02 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-banner02 {
+        width: 90%;
+    } 
+    .container-banner02 img{
+        width: 620px;
+    }
+
+    .texto-banner02 h1{    
+        font-size: 26px;
+    }
+    .texto-banner02 p {
+        font-size: 16px;
+    }
+    .texto-banner02 a {    
+        font-size: 26px;
+    }
 }
