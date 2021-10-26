@@ -29,16 +29,16 @@ let listaProdutos = [
         titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
         preco: "99,99",
     },
-    {
-        imagem :"imagens/produto.jpg",
-        titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
-        preco: "99,99",
-    },
-    {
-        imagem :"imagens/produto.jpg",
-        titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
-        preco: "99,99",
-    },
+    // {
+    //     imagem :"imagens/produto.jpg",
+    //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
+    //     preco: "99,99",
+    // },
+    // {
+    //     imagem :"imagens/produto.jpg",
+    //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
+    //     preco: "99,99",
+    // },
 ]
 
 function enviarEmail() {
@@ -50,7 +50,7 @@ function renderizarProdutos() {
     let secaoProdutos = document.getElementById("espaco-mais-vendidos");
 
     let template = "";
-
+    
     for (let index = 0; index < listaProdutos.length; index++) {
         const produto = listaProdutos[index];
         
@@ -75,14 +75,14 @@ function renderizarProdutos() {
 
     secaoProdutos.innerHTML = template;
 
-    function showSlides(n) {
-        let i;
-        let slides = document.getElementById("slide");
-        if(n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length};
-            for (i = 0; i < slide.length; i++) {
-                slide[i].style.display = "none";
-            }
-        slide[slideIndex-1].style.display = "block;"
-    }
+    // function showSlides(n) {
+    //     let i;
+    //     let slides = document.getElementById("slide");
+    //     if(n > slides.length) {slideIndex = 1}
+    //     if (n < 1) {slideIndex = slides.length};
+    //         for (i = 0; i < slide.length; i++) {
+    //             slide[i].style.display = "none";
+    //         }
+    //     slide[slideIndex-1].style.display = "block;"
+    // }
 }
