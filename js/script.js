@@ -71,9 +71,11 @@ function renderizarProdutos() {
                     <a href="#">Comprar</a>
             </div>                                                        
         </div>`
+        
     }
 
     secaoProdutos.innerHTML = template;
+    console.log (secaoProdutos)
 
     // function showSlides(n) {
     //     let i;
