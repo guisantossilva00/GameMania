@@ -276,7 +276,8 @@ header {
     justify-content: space-between;
 }
 
-.container-card-externo{
+.container-card-externo {
+    margin: 15px;
     width: 372px;
     height: 562px;
     background-color: white;
