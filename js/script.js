@@ -120,8 +120,8 @@ function renderizarProdutos() {
     for (let index = 0; index < listaProdutos.length; index++) {
         const produto = listaProdutos[index];
         
-        template += `<div class="container-card-externo">
-            <div class="container-card">
+        template += `<div class="container-card-externo carousel-item active">
+            <div class="container-card ">
                     <div>
                         <img src="${produto.imagem}" alt="Imagem do Produto">
                         <h3>${produto.titulo}</h3>
