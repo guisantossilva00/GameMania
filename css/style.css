@@ -444,7 +444,7 @@ footer {
         flex-direction: column;
         width: 250px;
         background-color: #202121;
-        position: absolute;
+        position: absolute  ;
         top: 70px;
         right: -17px;
     }
@@ -452,9 +452,10 @@ footer {
     .menu a {
         padding: 15px;
     }
-
+    
     .menu-ativo {
         display: flex;
+        z-index: 1;
     }
 
     .carrinho-login {

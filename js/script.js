@@ -10,65 +10,66 @@ let email = document.getElementById("campo-email");
 
 let listaProdutos = [
     {
-        imagem :"imagens/produto.jpg",
+        imagem :"../imagens/produto.jpg",
         titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
         preco: "99,99",
     },
     {
-        imagem :"imagens/mousegamer.jpg",
+        imagem :"../imagens/mousegamer.jpg",
         titulo: "Mouse Gamer 2400 Dpi Vx Gaming Sark",
         preco: "49,99",
     },
     {
-        imagem :"imagens/kitvermelho.jpg",
+        imagem :"../imagens/kitvermelho.jpg",
         titulo: "Kit Teclado Mouse Gamer Vermelho Vx Gaming Grifo",
         preco: "99,99",
     },
     {
-        imagem :"imagens/headset.jpg",
+        imagem :"../imagens/headset.jpg",
         titulo: "Headset Gamer Scorpion Com Fio Rgb Gh-x1000",
         preco: "99,99",
     },
     // {
-    //     imagem :"imagens/produto.jpg",
+    //     imagem :"../imagens/produto.jpg",
     //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
     //     preco: "99,99",
     // },
     // {
-    //     imagem :"imagens/produto.jpg",
+    //     imagem :"../imagens/produto.jpg",
     //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
     //     preco: "99,99",
     // },
 ]
 
+
 let listaProdutosPerifericos = [
     {
-        imagem :"imagens/produto.jpg",
+        imagem :"../imagens/produto.jpg",
         titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
         preco: "99,99",
     },
     {
-        imagem :"imagens/mousegamer.jpg",
+        imagem :"../imagens/mousegamer.jpg",
         titulo: "Mouse Gamer 2400 Dpi Vx Gaming Sark",
         preco: "49,99",
     },
     {
-        imagem :"imagens/kitvermelho.jpg",
+        imagem :"../imagens/kitvermelho.jpg",
         titulo: "Kit Teclado Mouse Gamer Vermelho Vx Gaming Grifo",
         preco: "99,99",
     },
     {
-        imagem :"imagens/produto.jpg",
+        imagem :"../imagens/produto.jpg",
         titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
         preco: "99,99",
     },
     // {
-    //     imagem :"imagens/produto.jpg",
+    //     imagem :"../imagens/produto.jpg",
     //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
     //     preco: "99,99",
     // },
     // {
-    //     imagem :"imagens/produto.jpg",
+    //     imagem :"../imagens/produto.jpg",
     //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
     //     preco: "99,99",
     // },
@@ -76,32 +77,32 @@ let listaProdutosPerifericos = [
 
 let listaProdutosEletronicos = [
     {
-        imagem :"imagens/smartwatch.jpg",
+        imagem :"../imagens/smartwatch.jpg",
         titulo: "Iwo 8 Lite Prata Relógio Smartwatch",
         preco: "99,99",
     },
     {
-        imagem :"imagens/mousegamer.jpg",
+        imagem :"../imagens/mousegamer.jpg",
         titulo: "Mouse Gamer 2400 Dpi Vx Gaming Sark",
         preco: "49,99",
     },
     {
-        imagem :"imagens/kitvermelho.jpg",
+        imagem :"../imagens/kitvermelho.jpg",
         titulo: "Kit Teclado Mouse Gamer Vermelho Vx Gaming Grifo",
         preco: "99,99",
     },
     {
-        imagem :"imagens/produto.jpg",
+        imagem :"../imagens/produto.jpg",
         titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
         preco: "99,99",
     },
     // {
-    //     imagem :"imagens/produto.jpg",
+    //     imagem :"../imagens/produto.jpg",
     //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
     //     preco: "99,99",
     // },
     // {
-    //     imagem :"imagens/produto.jpg",
+    //     imagem :"../imagens/produto.jpg",
     //     titulo: "Kit Teclado Mouse Gamer Azul Vx Gaming Grifo",
     //     preco: "99,99",
     // },

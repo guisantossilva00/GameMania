@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">    
+        <title>Game Mania</title>
+        <meta name="description" content="Site da Game Mania é uma Loja virtual que você encontrará jogos, teclado, mouse, controle, tudo para a sua diversão">
+        <meta name="keywords" content="jogos, games, teclado, mouse, kit teclado, kit mouse, headset, fone de ouvido">
+        <meta name="author" content="Guilherme dos Santos Silva">
+        <meta name="viewport" content="Width=decide-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/jquery-3.6.0.js"></script>        
+    </head>
+
+    <body onload="renderizarProdutos(), renderizarProdutosPerifericos(), renderizarProdutosEletronicos() ">
+        <header>
+            <div class="container-grid posicionamento-header">
+                <!-- imagem Logo -->
+                <a href="../index.html" >
+                    <img class="logo-menu" src="../imagens/logo.png" alt="Logo do site Game Mania">
+                </a>
+                
+                <!-- caixa de busca e icone-->
+                <div class="pesquisa">
+                    <input type="text" placeholder="  Buscar..." required> 
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <!--Menu-->
+                <nav id="menu" class="menu">
+                    <a href="../index.html">Inicio</a>
+                    <a href="../perifericos/perifericos.html">Periféricos</a>
+                    <a href="../console/console.html">Console</a>
+                    <a href="../eletronicos/eletronicos.html">Eletrônicos</a>
+                    <a href="../pcgamer/pcgamer.html">Pc Gamer</a>
+                </nav>
+                <!-- icone de carrinho -->
+                <div class="carrinho-login">
+                    <button class="carrinho-compras" alt="Carrinho">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    <a class="fazer-Login" href="#">Entrar</a>
+                    <a href="#" id="barras" class="barras"><i class="fas fa-bars barras"></i></a>
+                </div>
+            </div>           
+
+       </header>
+
+       <main>
+            <div id="carouselExampleControls" class="secao-produtos col carousel slide" data-ride="carousel">
+                <h2>Eletrônicos</h2>
+                
+                <div class="container-card-externo01">
+                    <a>
+                        <i class="fas fa-angle-left" aria-hidden="true"></i>
+                    </a>
+                    <div id="espaco-mais-vendidos" class="container-card-externo02 carousel-inner">
+                        <!-- <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div> -->
+                        
+                    </div>
+                    <a>
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="secao-produtos col carousel slide" data-ride="carousel">
+                <h2>Eletrônicos</h2>
+                
+                <div class="container-card-externo01">
+                    <i class="fas fa-angle-left"></i>
+                    <div id="espaco-perifericos" class="container-card-externo02 carousel-inner">
+                        <!-- <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div> -->
+                        
+                    </div>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="secao-produtos col carousel slide" data-ride="carousel">
+                <h2>Eletrônicos</h2>
+                
+                <div class="container-card-externo01">
+                    <i class="fas fa-angle-left"></i>
+                    <div id="espaco-eletronicos" class="container-card-externo02 carousel-inner">
+                        <!-- <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div>
+
+                        <div class="container-card-externo">
+                            <div class="container-card">
+                                    <div>
+                                        <img src="imagens/produto.jpg" alt="Imagem do Produto">
+                                        <h3>Titulo do Produto</h3>
+                                    </div>
+                                    <div>
+                                        <div class="preco-produto">
+                                            R$ 99,99
+                                        </div>
+                                        <div>
+                                            <span>À vista no pix</span>
+                                        </div>
+                                    </div>                               
+                                    <a href="#">Comprar</a>
+                            </div>                                                        
+                        </div> -->
+                        
+                    </div>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div> 
+       </main>
+
+       <footer>
+
+           <div class="container-grid container-fluid overflow-hidden">
+               <div class="container-footer row row-cols-md-2 row-cols-sm-1 offset-xxl-0 offset-md-1 offset-sm-3 offset-1 gy-xxl-0 gy-sm-5 gy-5">
+                    <div class="col-xxl ">                       
+                        <img src="../imagens/logo.png" alt="Logo do site Game Mania">
+                    </div> 
+
+                    <div class="container-newsletter-footer row-cols row">
+                        <div class="texto-newsletter-footer">
+                            <p>FIQUE POR DENTRO DAS NOVIDADES. ASSINE NOSSA NEWSLETTER</p>
+                        </div>                    
+                        <form class="cadastro-newsletter-footer" action="">
+                            <input id="campo-email" type="email" placeholder="  seuemail@email.com.br" required>
+                            <button onclick="enviarEmail()"><i class="fas fa-arrow-right"></i></button>
+                        </form>
+ 
+                    </div>
+                   
+                   <div class="col-xxl-2 col-md-6 ">
+                       <div class="footer-links-principal">
+                           <a href="#">Sobre a Game Mania</a>
+                        </div>
+                        <div class="footer-links row">
+                            <a href="#" class="cols-12">Quem somos</a>
+                            <a href="#" class="cols-12">Localização</a>
+                            <a href="#" class="cols-12">Política de Privacidade</a>
+                        </div>
+                   </div>
+
+                   <div class="col-xxl-2 col-md-6">
+                       <div class="footer-links-principal">
+                           <a href="#">Dúvidas</a>
+                        </div>
+                        <div class="footer-links row">
+                            <a href="#" class="cols-12">Entregas</a>
+                            <a href="#" class="cols-12">Garantia</a>
+                            <a href="#" class="cols-12">Como Comprar</a>
+                            <a href="#" class="cols-12">Formas de Pagamento</a>
+                        </div>
+
+                   </div>
+
+                   <div class="col-xxl-2 col-md-6">
+                       <div class="footer-links-principal">
+                            <a href="#">Contato</a>
+                        </div>
+                        <div class="footer-links row">
+                            <a href="#" class="cols-12">SAC</a>
+                            <a href="#" class="cols-12">Fale Conosco</a>
+                            <a href="#" class="cols-12">Termos de aceite</a>                        
+                        </div>
+                   </div>
+
+                   <div class="col-xxl-2 col-md-6">
+                       <div class="footer-links-principal">
+                           <a href="#">Atendimento</a>
+                           <div class="footer-links row">
+                               <span class="cols-12">
+                                   Horário de atendimento: </br>
+                                   Segunda à sexta-feira,
+                                   09:00h às 18:00h. </br>
+                               </span>
+                               <span class="cols-12">
+                                   contato@gamemania.com.br
+                               </span>
+                               <span class="cols-12">
+                                   (11) 98989-8989
+                               </span>
+                           </div>
+                       </div>
+                   </div>
+
+                    <div class="col-xxl-2 col offset-xxl-0 offset-md-3 offset-sm-1">
+                        <div class="redes-sociais">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></i></a>
+                            <a href="#"><i class="fab fa-youtube-square"></i></a>
+                        </div>
+
+                        <div class="footer-links">
+                            <span>
+                                Siga-nos nas redes socias
+                            </span>
+                        </div>
+
+                    </div>
+               </div>              
+
+           </div>
+
+       </footer>
+
+       <script src="../js/script.js"></script>
+
+       <script src="https://kit.fontawesome.com/4066e8e8b1.js" crossorigin="anonymous"></script>
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    </body>
+</html>
